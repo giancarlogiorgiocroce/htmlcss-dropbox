@@ -8,6 +8,9 @@
 }
 
 /* Larghezze standard */
+.w33{
+    width: calc(100% / 3);
+}
 
 .w40{
     width: 40%;

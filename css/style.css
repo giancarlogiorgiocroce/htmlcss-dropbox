@@ -37,18 +37,32 @@ nav{
 /*
     MAIN TOP
 */
+/* Piani di acquisto (Business) */
 .business-offerte{
     width: 100%;
 }
 
 .offerta{
-    width: calc(100% / 3);
     padding: 50px 0;
 }
 
 .offerta:nth-child(2){
-    padding: 0 50px;
+    padding: 50px;
 }
+
+.business-bottom{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.business-bottom .fa-building{
+    padding: 5px;
+}
+
+/* Immagine + didascalia (Partner) */
+
+/* Multischeda (Card) */
+
 /*
     /MAIN TOP
 */
