@@ -6,6 +6,7 @@ header{
     height: 65px;
     position: fixed;
     line-height: 61px;
+    background-color: white;
 }
 
 nav .float-dx{
@@ -26,11 +27,8 @@ header li img{
 }
 
 header li:nth-child(5) a{
-    padding: 5px 15px;
     font-size: 14px;
 }
-
-
 /*
     /NAV
 */
@@ -39,21 +37,40 @@ header li:nth-child(5) a{
 /*
     JUMBO
 */
-
 .jumbo{
-    padding: 100px 0;
+    padding: 110px 0 0;
+    background-color: var(--blu-spento);
+}
+
+.jumbo-boxxone{
+    padding: 50px 100px 0;
+}
+
+.jumbo-boxxone h1{
+    font-size: 70px;
 }
 
 .jumbo-box{
-    padding: 30px 50px;
+    padding-top: 40px;
 }
 
-.jumbo-box h1{
-    height: 25%;
+.jumbo-box p{
+    padding-bottom: 40px;
 }
 
-.jumbo-box div{
-    height: 75%;
+.jumbo-box div.float p:nth-child(3){
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.fa-arrow-down{
+    font-size: 30px;
+    z-index: 998;
+}
+
+.jumbo-box img{
+    width: 130%;
+    z-index: 998;
 }
 /*
     /JUMBO

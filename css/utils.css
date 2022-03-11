@@ -1,6 +1,7 @@
 .btn{
     background-color: var(--blu-acceso);
     color: white;
+    padding: 5px 15px;
 }
 
 .float{
