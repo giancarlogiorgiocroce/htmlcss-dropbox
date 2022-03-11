@@ -86,6 +86,19 @@ div.team-center{
 /*
     FOOTER
 */
+footer{
+    background-color: black;
+}
+footer .colonne{
+    width: 20%;
+}
+/* footer div.container-medio{
+    padding: 50px 0 25px;
+}
+
+footer span.container-medio{
+    padding-bottom: 25px;
+} */
 /*
     /FOOTER
 */
