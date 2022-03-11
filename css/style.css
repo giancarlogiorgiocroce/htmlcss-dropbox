@@ -13,6 +13,11 @@ nav{
 /*
     JUMBO
 */
+
+.jumbo{
+    padding: 100px 0;
+}
+
 .jumbo-box{
     padding: 30px 50px;
 }
@@ -26,6 +31,34 @@ nav{
 }
 /*
     /JUMBO
+*/
+
+
+/*
+    MAIN TOP
+*/
+.business-offerte{
+    width: 100%;
+}
+
+.offerta{
+    width: calc(100% / 3);
+    padding: 50px 0;
+}
+
+.offerta:nth-child(2){
+    padding: 0 50px;
+}
+/*
+    /MAIN TOP
+*/
+
+
+/*
+    MAIN BOTTOM
+*/
+/*
+    /MAIN BOTTOM
 */
 
 
