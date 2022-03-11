@@ -9,6 +9,10 @@
     --blu-spento: rgb(180, 208, 231);
 }
 
+.jumbo{
+    padding-top: 100px;
+}
+
 a{
     text-decoration: none;
 }

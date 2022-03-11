@@ -7,9 +7,24 @@
     float: left;
 }
 
+/* Larghezze standard */
+
+.w40{
+    width: 40%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w60{
+    width: 60%;
+}
+
 /* Debug */
 .debug{
     background-color: rgba(0, 255, 0, 0.2);
+    border: 1px solid black;
 }
 
 .h100{
