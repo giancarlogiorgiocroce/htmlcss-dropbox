@@ -7,10 +7,19 @@
 :root{
     --blu-acceso: rgb(0, 97, 255);
     --blu-spento: rgb(180, 208, 231);
+    --marrone-link: rgb(97, 8, 43);
+}
+
+ul{
+    list-style: none;
 }
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    color: var(--marrone-link);
 }
 
 .clearfix::after{
