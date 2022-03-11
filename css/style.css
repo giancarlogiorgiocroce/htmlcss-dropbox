@@ -40,6 +40,8 @@ header li:nth-child(5) a{
 .jumbo{
     padding: 110px 0 0;
     background-color: var(--blu-spento);
+    height: 750px;
+    margin-bottom: 150px;
 }
 
 .jumbo-boxxone{
@@ -70,7 +72,6 @@ header li:nth-child(5) a{
 
 .jumbo-box img{
     width: 130%;
-    z-index: 998;
 }
 /*
     /JUMBO
