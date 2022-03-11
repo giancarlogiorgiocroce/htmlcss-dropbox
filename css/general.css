@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blu-acceso: rgb(0, 97, 255);
+    --blu-spento: rgb(180, 208, 231);
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-medio{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-stretto{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-largo{
+    width: 90%;
+    margin: 0 auto;
+}
