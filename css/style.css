@@ -279,21 +279,69 @@ section.cards h1{
 
 
 /*
-    MAIN BOTTOM
+    TEAM
 */
-/* Zona Team */
-div.team-center{
-    width: 100%;
+.team-top{
+    margin-bottom: 20px;
 }
 
-/* Zona Domande Frequenti */
+.team-top h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.team-middle-sx{
+    width: 30%;
+    height: 400px;
+}
+
+.team-middle-cx{
+    width: 40%;
+}
+
+.team-middle-dx{
+    width: 30%;
+}
+
+.team-middle .cliente{
+    height: 50%;
+    width: 50%;
+}
+
+.team-middle svg{
+    height: 150px;
+    width: 150px;
+    display: block;
+    fill: white;
+    margin: 0 auto;
+}
+
+#designit{
+    padding: 25px;
+}
+
+#asu{
+    padding: 25px;
+}
+
+#uof{
+    padding: 50px;
+    fill: white;
+}
+/*
+    /TEAM
+*/
 
 /*
-    /MAIN BOTTOM
+    FAQ
+*/
+/*
+    /FAQ
 */
 /*
     /MAIN
 */
+
 
 /*
     FOOTER
