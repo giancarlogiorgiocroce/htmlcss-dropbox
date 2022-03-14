@@ -208,7 +208,39 @@ div .business-bottom-txt div.w33:first-of-type{
 */
 
 
-/* Immagine + didascalia (Partner) */
+/*
+    PARTNER
+*/
+div.partner-img img{
+    width: 100%;
+}
+
+div.partner-txt{
+    padding: 40px 60px 0 40px;
+}
+
+div.partner-txt h1{
+    font-size: 28px;
+}
+
+div.partner-txt p{
+    padding: 30px 0;
+}
+
+div.partner-txt a{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1.5px solid black;
+}
+
+div.partner-txt a:hover{
+    color: brown;
+}
+/*
+    /PARTNER
+*/
+
 
 /* Multischeda (Card) */
 
