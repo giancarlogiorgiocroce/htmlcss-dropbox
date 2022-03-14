@@ -111,6 +111,7 @@ div.input:last-child{
 
 /* Business offerte */
 .business-offerte{
+    border: 1px solid black;
     width: 100%;
 }
 
@@ -120,13 +121,14 @@ div.input:last-child{
 
 .offerta{
     padding: 0 0 50px;
+    border: 1px solid black;
 }
 
 .offerta:nth-child(2){
     padding: 50px;
 }
 
-.offerte-tipo{
+.offerta-corpo{
     padding: 10px;
 }
 
@@ -155,6 +157,24 @@ div.input:last-child{
     display: inline-block;
     padding-bottom: 20px;
     border-bottom: 1px solid grey;
+}
+
+.offerta-punti{
+    padding-top: 30px;
+}
+
+.offerta-punti ul{
+    padding-top: 15px;
+}
+
+.offerta-punti li{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.offerta-punti li::before{
+    content: '\2713';
+    color: var(--blu-acceso);
 }
 
 /* Business bottom */
