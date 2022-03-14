@@ -7,6 +7,7 @@ header{
     position: fixed;
     line-height: 61px;
     background-color: white;
+    z-index: 999;
 }
 
 nav .float-dx{
@@ -38,13 +39,14 @@ header li:nth-child(5) a{
     JUMBO
 */
 .jumbo{
-    padding: 110px 0 0;
+    padding: 75px 0 0;
     background-color: var(--blu-spento);
-    height: 750px;
     margin-bottom: 150px;
 }
 
 .jumbo-boxxone{
+    position: relative;
+    bottom: -75px;
     padding: 50px 100px 0;
 }
 
@@ -82,6 +84,23 @@ header li:nth-child(5) a{
     MAIN TOP
 */
 /* Piani di acquisto (Business) */
+.business-top{
+    margin-bottom: 20px;
+}
+
+.business-top h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.business-top div.input{
+    display: inline;
+}
+
+div.input:last-child{
+    padding-left: 10px;
+}
+
 .business-offerte{
     width: 100%;
 }
