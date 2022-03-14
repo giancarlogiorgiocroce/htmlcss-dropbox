@@ -27,8 +27,8 @@ header li img{
     vertical-align: text-bottom;
 }
 
-header li:nth-child(5) a{
-    font-size: 14px;
+header li:hover{
+    border-bottom: 1px solid black;
 }
 /*
     /NAV
@@ -39,7 +39,7 @@ header li:nth-child(5) a{
     JUMBO
 */
 .jumbo{
-    padding: 75px 0 0;
+    padding: 25px 0 0;
     background-color: var(--blu-spento);
     margin-bottom: 150px;
 }
@@ -81,9 +81,17 @@ header li:nth-child(5) a{
 
 
 /*
-    MAIN TOP
+    MAIN
 */
-/* Piani di acquisto (Business) */
+/*
+    MAIN BUSINESS
+*/
+/* Generali business */
+.business i{
+    padding: 5px 0;
+}
+
+/* Business top */
 .business-top{
     margin-bottom: 20px;
 }
@@ -101,26 +109,63 @@ div.input:last-child{
     padding-left: 10px;
 }
 
+/* Business offerte */
 .business-offerte{
     width: 100%;
 }
 
+.offerta-icona{
+    text-align: center;
+}
+
 .offerta{
-    padding: 50px 0;
+    padding: 0 0 50px;
 }
 
 .offerta:nth-child(2){
     padding: 50px;
 }
 
+.offerte-tipo{
+    padding: 10px;
+}
+
+.offerta-titolo, .offerta-funzioni{
+    margin-bottom: 20px;
+}
+
+.offerta h3{
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.offerta p{
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.offerta-links a:first-child{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offerta-links span{
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+/* Business bottom */
 .business-bottom{
     border-bottom: 1px solid black;
     text-align: center;
 }
+/*
+    /MAIN BUSINESS 
+*/
 
-.business-bottom .fa-building{
-    padding: 5px;
-}
 
 /* Immagine + didascalia (Partner) */
 
@@ -144,7 +189,9 @@ div.team-center{
 /*
     /MAIN BOTTOM
 */
-
+/*
+    /MAIN
+*/
 
 /*
     FOOTER

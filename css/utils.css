@@ -2,10 +2,25 @@
     background-color: var(--blu-acceso);
     color: white;
     padding: 5px 15px;
+    font-size: 14px;
 }
 
 .float{
     float: left;
+}
+
+/* Colori e testi */
+.c-grey{
+    color: grey;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.a-variant{
+    color: var(--blu-acceso);
+    text-decoration: underline;
 }
 
 /* Larghezze standard */
