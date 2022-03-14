@@ -113,7 +113,6 @@ div.input:last-child{
 .offerta-col{
     padding: 0 0 50px;
     border: 1px solid grey;
-    width: calc(100% / 3 - 100px / 3);
 }
 
 .offerta-col h3{
@@ -126,7 +125,7 @@ div.input:last-child{
 }
 
 .offerta-col:nth-child(2){
-    margin: 0 50px 0;
+    margin: 0 50px;
 }
 
 .offerta-icona{
@@ -242,10 +241,40 @@ div.partner-txt a:hover{
 */
 
 
-/* Multischeda (Card) */
-
 /*
-    /MAIN TOP
+    CARDS
+*/
+section.cards h1{
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.cards-row .card:nth-child(2){
+    margin: auto 50px;
+}
+
+.cards-row{
+    margin-top: 40px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h3{
+    font-size: 26px;
+}
+
+.card p{
+    padding: 20px 0;
+}
+
+.card a{
+    text-decoration: underline;
+    color: black;
+}
+/*
+    /CARDS
 */
 
 
