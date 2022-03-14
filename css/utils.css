@@ -5,6 +5,13 @@
     font-size: 14px;
 }
 
+.btn-variante{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .float{
     float: left;
 }
@@ -23,7 +30,15 @@
     text-decoration: underline;
 }
 
-/* Larghezze standard */
+/* Larghezze e altezze standard */
+.w-special{
+    width: calc(13% / 2);
+}
+
+.w25{
+    width: 29%;
+}
+
 .w33{
     width: calc(100% / 3);
 }
@@ -38,6 +53,32 @@
 
 .w60{
     width: 60%;
+}
+
+/* Icone per Main business-offerte*/
+.user::before{
+    content: '\f007';
+    /* <i class="fa-regular fa-user"></i> */
+}
+.user-plus::before{
+    content: '\f234';
+    /* <i class="fa-solid fa-user-plus"></i> */
+}
+.building::before{
+    content: '\f1ad';
+    /* <i class="fa-solid fa-building"></i> */
+}
+.folder::before{
+    content: '\f07b';
+    /* <i class="fa-regular fa-folder"></i> */
+}
+.pencil::before{
+    content: '\f303';
+    /* <i class="fa-solid fa-pencil"></i> */
+}
+.smile::before{
+    content: '\f118';
+    /* <i class="fa-regular fa-face-smile"></i> */
 }
 
 /* Debug */

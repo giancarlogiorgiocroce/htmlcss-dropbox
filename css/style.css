@@ -87,13 +87,13 @@ header li:hover{
     MAIN BUSINESS
 */
 /* Generali business */
-.business i{
+.business .icon{
     padding: 5px 0;
 }
 
 /* Business top */
 .business-top{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .business-top h1{
@@ -110,47 +110,40 @@ div.input:last-child{
 }
 
 /* Business offerte */
-.business-offerte{
-    border: 1px solid black;
-    width: 100%;
+.offerta-col{
+    padding: 0 0 50px;
+    border: 1px solid grey;
+    width: calc(100% / 3 - 100px / 3);
+}
+
+.offerta-col h3{
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.offerta-col p{
+    padding: 5px 0;
+}
+
+.offerta-col:nth-child(2){
+    margin: 0 50px 0;
 }
 
 .offerta-icona{
     text-align: center;
-}
-
-.offerta{
-    padding: 0 0 50px;
-    border: 1px solid black;
-}
-
-.offerta:nth-child(2){
-    padding: 50px;
+    border-bottom: 1px solid grey;
 }
 
 .offerta-corpo{
-    padding: 10px;
+    padding: 25px;
 }
 
 .offerta-titolo, .offerta-funzioni{
     margin-bottom: 20px;
 }
 
-.offerta h3{
-    font-size: 24px;
-    padding: 5px 0;
-}
-
-.offerta p{
-    padding: 5px 0;
+.offerta-funzioni{
     font-size: 14px;
-}
-
-.offerta-links a:first-child{
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 .offerta-links span{
@@ -173,14 +166,42 @@ div.input:last-child{
 }
 
 .offerta-punti li::before{
-    content: '\2713';
+    content: '\f00c';
+    /* <i class="fa-regular fa-check"></i> */
     color: var(--blu-acceso);
 }
 
 /* Business bottom */
 .business-bottom{
-    border-bottom: 1px solid black;
+    margin-top: 40px;
+    border: 1px solid grey;
     text-align: center;
+}
+
+.business-bottom div.icona{
+    border-bottom: 1px solid grey;
+}
+
+.business-bottom-txt{
+    padding: 20px;
+}
+
+.business-bottom-txt h4{
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+
+.business-bottom-txt p.bold{
+    padding-bottom: 20px;
+}
+
+.business-bottom-txt p:last-child{
+    font-size: 15px;
+}
+
+div .business-bottom-txt div.w33:first-of-type{
+    width: calc(100% / 3 * 2);
+    text-align: left;
 }
 /*
     /MAIN BUSINESS 
