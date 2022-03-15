@@ -69,7 +69,6 @@ header li:not(:first-child, :nth-child(5)):hover{
 
 .fa-arrow-down{
     font-size: 30px;
-    z-index: 998;
 }
 
 .jumbo-box img{
@@ -88,7 +87,7 @@ header li:not(:first-child, :nth-child(5)):hover{
 */
 /* Generali business */
 .business .icon{
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 /* Business top */
@@ -109,7 +108,7 @@ div.input:last-child{
     padding-left: 10px;
 }
 
-/* Business offerte */
+/* Business (middle) offerte */
 .offerta-col{
     padding: 0 0 50px;
     border: 1px solid grey;
@@ -159,17 +158,14 @@ div.input:last-child{
     padding-top: 15px;
 }
 
-.offerta-punti li i{
-    font-size: 14px;
-    padding-bottom: 15px;
-    color: var(--blu-acceso);
+.offerta-punti li{
+    padding-bottom: 10px;
 }
 
-/* .offerta-punti li::before{
-    content: '\f00c';
+.offerta-punti li i{
+    font-size: 14px;
     color: var(--blu-acceso);
-    <i class="fa-regular fa-check"></i>
-} */
+}
 
 /* Business bottom */
 .business-bottom{
@@ -209,7 +205,7 @@ div .business-bottom-txt div.w33:first-of-type{
 
 
 /*
-    PARTNER
+    MAIN PARTNER
 */
 div.partner-img img{
     width: 100%;
@@ -239,12 +235,12 @@ div.partner-txt a:hover{
     background-color: rgba(240, 240, 240, 0.9);
 }
 /*
-    /PARTNER
+    /MAIN PARTNER
 */
 
 
 /*
-    CARDS
+    MAIN CARDS
 */
 section.cards h1{
     padding: 20px 0;
@@ -276,12 +272,12 @@ section.cards h1{
     color: black;
 }
 /*
-    /CARDS
+    /MAIN CARDS
 */
 
 
 /*
-    TEAM
+    MAIN TEAM
 */
 /* team top */
 .team-top{
@@ -398,11 +394,12 @@ section.cards h1{
     background-color: rgba(240, 240, 240, 0.9);
 }
 /*
-    /TEAM
+    /MAIN TEAM
 */
 
+
 /*
-    FAQ
+    MAIN FAQ
 */
 section.ask{
     padding-bottom: 120px;
@@ -441,7 +438,7 @@ section.ask{
     display: none;
 }
 /*
-    /FAQ
+    /MAIN FAQ
 */
 /*
     /MAIN

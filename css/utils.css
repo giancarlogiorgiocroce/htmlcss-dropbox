@@ -30,15 +30,7 @@
     text-decoration: underline;
 }
 
-/* Larghezze e altezze standard */
-.w-special{
-    width: calc(13% / 2);
-}
-
-.w25{
-    width: 29%;
-}
-
+/* Larghezze standard */
 .w33{
     width: calc(100% / 3 - 100px / 3);
 }
@@ -55,6 +47,9 @@
     width: 60%;
 }
 
+/* 
+    IN CASO SERVISSE AVERE LE ICONE GENERATE DA CSS
+*/
 /* Icone per Main business-offerte*/
 /* .user::before{
     content: '\f007';
@@ -66,7 +61,7 @@
 }
 .building::before{
     content: '\f1ad';
-    <i class="fa-solid fa-building"></i>
+    <i class="fa-regular fa-building"></i>
 }
 .folder::before{
     content: '\f07b';
@@ -81,8 +76,11 @@
     <i class="fa-regular fa-face-smile"></i>
 } */
 
-/* Debug */
-.debug{
+
+/*
+    DEBUG
+*/
+/* .debug{
     background-color: rgba(0, 255, 0, 0.2);
     border: 1px solid black;
 }
@@ -97,4 +95,4 @@
 
 .h500{
     height: 500px;
-}
+} */
