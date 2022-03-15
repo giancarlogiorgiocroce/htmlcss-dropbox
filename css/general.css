@@ -21,6 +21,10 @@ a:hover{
     color: brown;
 }
 
+section{
+    padding-top: 120px;
+}
+
 .clearfix::after{
     content: '';
     display: table;
@@ -34,5 +38,5 @@ a:hover{
 
 .container-stretto{
     width: 70%;
-    margin: 120px auto auto;
+    margin: auto;
 }

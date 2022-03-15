@@ -56,30 +56,30 @@
 }
 
 /* Icone per Main business-offerte*/
-.user::before{
+/* .user::before{
     content: '\f007';
-    /* <i class="fa-regular fa-user"></i> */
+    <i class="fa-regular fa-user"></i>
 }
 .user-plus::before{
     content: '\f234';
-    /* <i class="fa-solid fa-user-plus"></i> */
+    <i class="fa-solid fa-user-plus"></i>
 }
 .building::before{
     content: '\f1ad';
-    /* <i class="fa-solid fa-building"></i> */
+    <i class="fa-solid fa-building"></i>
 }
 .folder::before{
     content: '\f07b';
-    /* <i class="fa-regular fa-folder"></i> */
+    <i class="fa-regular fa-folder"></i>
 }
 .pencil::before{
     content: '\f303';
-    /* <i class="fa-solid fa-pencil"></i> */
+    <i class="fa-solid fa-pencil"></i>
 }
 .smile::before{
     content: '\f118';
-    /* <i class="fa-regular fa-face-smile"></i> */
-}
+    <i class="fa-regular fa-face-smile"></i>
+} */
 
 /* Debug */
 .debug{
