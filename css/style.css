@@ -313,49 +313,45 @@ section.cards h1{
     border: 10px solid rgba(0, 0, 0, 0.5);
 }
 
-.team-middle{
-    height: 50vh;
-}
-    /* team-middle-cx*/
 .team-middle-sx, .team-middle-dx{
-    width: 30%;
-    height: 100%;
+    width: 30vw;
+    height: 30vw;
 }
 
 .team-middle-cx{
-    width: 40%;
-    height: 100%;
+    width: calc(100% - 60vw);
+    height: 30vw;
     background-color: rgb(245, 245, 245);
-    overflow: scroll;
-}
-
-.team-middle-cx div{
-    height: 30%;
-}
-
-.team-middle-cx div img{
-    height: 100%;
+    overflow: auto;
     padding: 30px;
 }
 
-.team-middle-cx p{
-    display: block;
-    padding: 30px;
+.team-middle-cx img{
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+.team-middle-cx p{   
+    padding-top: 30px;
+}
+
+.team-middle-cx div.linea{
+    width: 50px;
+    border-bottom: 2px solid lightgrey;
 }
 
     /* team-middle sx e dx */
 .cliente{
-    height: 50%;
-    width: 50%;
+    width: 15vw;
+    height: 15vw;
 }
 
-.team-middle .cliente img{
+.cliente img{
     width: 100%;
     height: 100%;
-    display: block;
+    padding: 25%;
+
     filter: invert(1);
-    margin: auto;
-    padding: 50px;
 }
 
 #designit{
@@ -363,7 +359,7 @@ section.cards h1{
 }
 
 #uof{
-    padding: 80px 50px;
+    padding: 45% 25%;
     background-color: rgb(255, 108, 49);
 }
 
@@ -416,6 +412,7 @@ section.cards h1{
 
 .team-bottom-dx a.btn:hover{
     background-color: rgba(240, 240, 240, 0.9);
+    color: brown;
 }
 /*
     /MAIN TEAM
