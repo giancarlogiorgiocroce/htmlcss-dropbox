@@ -5,7 +5,7 @@ header{
     width: 100%;
     height: 65px;
     position: fixed;
-    line-height: 61px;
+    line-height: 65px;
     background-color: white;
     z-index: 999;
 }
@@ -27,7 +27,7 @@ header li img{
     vertical-align: text-bottom;
 }
 
-header li:hover{
+header li:not(:first-child, :nth-child(5)):hover{
     border-bottom: 1px solid black;
 }
 /*
@@ -236,6 +236,7 @@ div.partner-txt a{
 
 div.partner-txt a:hover{
     color: brown;
+    background-color: rgba(240, 240, 240, 0.9);
 }
 /*
     /PARTNER
@@ -293,23 +294,42 @@ section.cards h1{
 }
 
 /* team-middle */
+.team-middle-sx img:active, .team-middle-dx img:active{
+    border: 10px solid rgba(0, 0, 0, 0.5)
+}
+    /* team-middle-cx*/
 .team-middle-sx, .team-middle-dx{
     height: 50vh;
     width: 30%;
-    min-width: 400px;
 }
 
 .team-middle-cx{
     width: 40%;
+    height: 50vh;
     background-color: rgb(245, 245, 245);
 }
 
+.team-middle-cx div{
+    height: 30%;
+}
+
+.team-middle-cx div img{
+    height: 100%;
+    padding: 30px;
+}
+
+.team-middle-cx p{
+    display: block;
+    padding: 30px;
+}
+
+    /* team-middle sx e dx */
 .team-middle .cliente{
     height: 50%;
     width: 50%;
 }
 
-.team-middle img{
+.team-middle .cliente img{
     width: 100%;
     height: 100%;
     display: block;
@@ -373,6 +393,10 @@ section.cards h1{
     color: black;
     font-size: 16px;
 }
+
+.team-bottom-dx a.btn:hover{
+    background-color: rgba(240, 240, 240, 0.9);
+}
 /*
     /TEAM
 */
@@ -380,6 +404,42 @@ section.cards h1{
 /*
     FAQ
 */
+section.ask{
+    padding-bottom: 120px;
+}
+
+.ask div{
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+
+.ask div h1{
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.ask div p.bold{
+    padding: 30px 0;
+}
+
+.ask div i{
+    position: absolute;
+    right: 5%;
+    top: 30px;
+}
+
+.ask div .invisibile{
+    display: none;
+}
+
+.ask div:hover >.invisibile{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.ask div:hover >.fa-chevron-down{
+    display: none;
+}
 /*
     /FAQ
 */
