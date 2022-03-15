@@ -453,17 +453,42 @@ section.ask{
 */
 footer{
     background-color: black;
-}
-footer .colonne{
-    width: 20%;
-}
-/* footer div.container-medio{
-    padding: 50px 0 25px;
+    color: white;
 }
 
-footer span.container-medio{
-    padding-bottom: 25px;
-} */
+footer .colonne{
+    width: 20%;
+    padding: 5% 0;
+}
+
+footer .colonne h2{
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+footer .colonne li{
+    padding-bottom: 10px;
+}
+
+footer .colonne li a{
+    color: white;
+}
+
+footer .colonne li a:hover{
+    color: brown;
+}
+
+div.trattino{
+    display: inline-block;
+    padding: 30px 20px 30px 0;
+    color: grey;
+    border-top: 1px solid white;
+}
+
+i.fa-caret-up{
+    font-size: 10px;
+    vertical-align: middle;
+}
 /*
     /FOOTER
 */
