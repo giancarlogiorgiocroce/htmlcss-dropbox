@@ -104,9 +104,10 @@ ul.finestra{
 /*
     MAIN BUSINESS
 */
-/* Generali business */
-.business .icon{
-    padding: 10px 0;
+.icona-superiore{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 5px 0;
 }
 
 /* Business top */
@@ -127,7 +128,8 @@ div.input:last-child{
     padding-left: 10px;
 }
 
-/* Business (middle) offerte */
+/* Business Middle */
+    /* Offerta generale */
 .offerta-col{
     padding: 0 0 50px;
     border: 1px solid grey;
@@ -146,16 +148,11 @@ div.input:last-child{
     margin: 0 50px;
 }
 
-.offerta-icona{
-    text-align: center;
-    border-bottom: 1px solid grey;
-}
-
 .offerta-corpo{
     padding: 25px;
 }
 
-.offerta-titolo, .offerta-funzioni{
+.offerta-prezzo, .offerta-funzioni{
     margin-bottom: 20px;
 }
 
