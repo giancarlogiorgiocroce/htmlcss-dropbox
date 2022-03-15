@@ -16,6 +16,14 @@
     float: left;
 }
 
+.invisibile{
+    display: none;
+}
+
+.pos-rel{
+    position: relative;
+}
+
 /* Colori e testi */
 .c-grey{
     color: grey;
